@@ -1,0 +1,91 @@
+html{
+	font-family: "segoe ui";
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#F9FEFF;
+}
+
+#menu{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	top:0;
+	left:0;
+	background: #fff;
+	padding:20px 100px;
+	align-items: center;
+	box-sizing: border-box;
+	width:100%;
+}
+.logo{
+	height:40px;
+}
+.timkiem{
+	height:35px;
+}
+#timkiem input{
+	height:40px;
+	box-sizing: border-box;
+	padding:0 10px;
+	border:solid 1px #666;
+	transition:0.3s;
+	float:right;
+	width:0;
+}
+#timkiem input.active{
+	width:100%;
+}
+#timkiem{
+	opacity: 0;
+	flex-grow: 1;
+	margin:0 30px;
+}
+#timkiem input:focus{
+	border:solid 1px orange;
+	outline:0;
+}
+#chua-noi-dung{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding:120px 100px 50px;
+}
+#chua-noi-dung > div{
+	width:25%;
+}
+.hinh{
+	height:170px;
+	background:url("https://vnn-imgs-f.vgcloud.vn/2020/11/19/23/man-danh-up-dang-yeu-cua-sinh-vien-danh-cho-co-giao-hotgirl-midu.jpg");
+	background-size:cover;
+}
+#chua-noi-dung a > div{
+	padding:20px;
+}
+.de{
+	border-radius:20px;
+	overflow:hidden;
+	box-shadow:1px 1px 15px rgba(0,0,0,0.08);
+	color:#333;
+}
+.de:hover{
+	background-color:orange;
+	color:#fff;
+	transition:0.3s;
+}
+.noidung{
+	padding:10px 30px;
+}
+a{
+	text-decoration:none;
+}
+.noidung h1{
+	margin:10px 0;
+}
+.noidung p{
+	margin:10px 0;
+}
